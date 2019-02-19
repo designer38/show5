@@ -1,0 +1,65 @@
+.history-section {
+    background-color: $lightcolor;
+    text-align: center;
+    h2 {
+           
+        
+        
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "lato";
+        font-weight: 700;
+        color: $redcolor;
+        font-size: 30px;
+        
+    }
+    h2:before { right:10%; }
+    h2:after { right:10%; }
+    .history-box{
+        
+       padding:5rem;
+        background-color: white;
+        
+       
+       
+        // h2.no-span {
+        //     display: table;
+        //     white-space: nowrap;
+        //     &:before, &:after {
+        //       border-top: 2px solid $redcolor;
+        //       content: '';
+        //       display: table-cell;
+        //       position: relative;
+        //       top: 0.5em;
+        //       width: 45%;
+        //     }
+        //     &:before { right:10%; }
+        //     &:after { left: 10%; }
+        // }
+        // h2.no-span2 {
+        //     display: table;
+        //     white-space: nowrap;
+        //      &:after {
+        //       border-right: 2px solid $redcolor;
+        //       content: '';
+        //       display: table-cell;
+        //       position: relative;
+        //       top: 0.5em;
+        //       width: 45%;
+        //     }
+           
+        // }
+        
+            
+            
+            .history-content {
+                text-align: center;
+                
+         
+            border: solid $redcolor 2px;
+            
+            }
+    }
+   
+    
+}

@@ -1,0 +1,100 @@
+.header-bg {
+    width:100%;
+    margin-top: 0.25rem;
+    background-image: url("bg naming.png");
+    background-size: cover;
+    background-color: $lightcolor;
+
+    height: 50vh;
+    display:table;
+    .content-box{
+        display:table-cell;
+        vertical-align: middle;
+        
+        .main-text {
+            font-size: 40px;
+            font-family: "lato";
+            font-weight: 700;
+            color: white;
+            padding-left: 7.5rem;
+           
+           
+            
+        }
+        .italic-style{
+            font-size: 30px;
+            font-family: "lato";
+            font-weight: "regular";
+            font-style: italic;
+            color: white;
+            padding-left: 7.5rem;
+           
+              
+        }
+    }
+    
+}
+
+.about{
+    .carousel-control-prev-icon {
+        background-image: url("left-arrow-chevron (2).png");
+        background-color:$redcolor;
+        padding:2rem;
+        margin-bottom: 19rem;
+        margin-left:2rem;
+    }
+    .carousel-control-next-icon {
+        margin-bottom: 19rem;
+        background-image: url("right-chevron.png");
+        background-color:$redcolor;
+        padding:2rem;
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon{
+        width:20px;
+        height: 20px;
+        
+        
+    }
+    .right-section{
+        -webkit-clip-path: polygon(23% 0, 100% 0, 100% 100%, 76% 100%, 75% 100%, 42% 100%, 0 100%);
+    clip-path: polygon(23% 0, 100% 0, 100% 100%, 76% 100%, 75% 100%, 42% 100%, 0 100%);
+    background-color: #C92127;
+    padding-right: 30px;
+    padding-left: 109px;
+    padding-top: 5rem;
+    
+        figure {
+           
+            text-align:center;
+         font-weight:bold;
+            margin: 0.5em;
+            padding: 0.5em;
+          }
+        .text-photo{
+
+width:100%;
+        }
+    }
+    .left-section{
+        
+    
+    padding-right: 30px;
+    padding-left: 109px;
+    padding-top: 5rem;
+    
+        figure {
+           
+            text-align:center;
+         font-weight:bold;
+            margin: 0.5em;
+            padding: 0.5em;
+          }
+        .text-photo{
+
+width:100%;
+        }
+    }
+}
+.parent-section{
+    background-color: $lightcolor;
+}

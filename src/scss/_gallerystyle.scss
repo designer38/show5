@@ -1,0 +1,37 @@
+.gallery-style {
+    margin: 0;
+    .main-header {
+        margin-top: 2rem;
+        font-family: "lato";
+        font-weight: 600;
+        font-size: 20px;
+        color: $redcolor;
+        margin-left: 7rem;
+    }
+    .main-header:before {
+        content: url("gallery.png");
+        padding-right: 4px;
+      }
+    hr {
+        margin-left: 7rem;
+        width: 15%;
+        border-color: $redcolor;
+        margin-bottom: 2rem;
+    }
+    .pic-box {
+        width: 300px;
+        position:relative;
+        overflow: hidden;
+        img {
+            max-width: 100%;
+            -moz-transition: all 0.3s;
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+        img:hover {
+            -moz-transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+    }
+}

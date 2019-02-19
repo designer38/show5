@@ -1,0 +1,59 @@
+.players{
+    padding-bottom: 5rem;
+    position: relative;
+    background-image: url("red photo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    .carousel-control-prev-icon {
+        background-image: url("left-arrow-chevron (2).png");
+    }
+    .carousel-control-next-icon {
+        background-image: url("right-chevron.png");
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon{
+        width:50px;
+        height: 50px;;
+    }
+    .players-box{
+        margin-left: 6rem;
+    }
+   .information{
+       text-align:left;
+       margin-left: 1rem;
+       margin-top: 3rem;
+p{
+    margin:0;
+    font-family: "lato";
+        font-weight: "regular";
+        font-size: 18px;
+        color: white; 
+}
+    }
+    .pic-box{
+        width: 300px;
+        position:relative;
+        overflow: hidden;
+        img {
+            max-height: 100%;
+            max-width: 100%;
+            -moz-transition: all 0.3s;
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+            border-radius: 12px;
+        }
+        img:hover {
+            -moz-transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+    }
+    .main-header {
+        margin-top: 2rem;
+        font-family: "lato";
+        font-weight: "regular";
+        font-size: 45px;
+        color: white;
+        
+    }
+}

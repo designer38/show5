@@ -1,0 +1,209 @@
+body {
+    position: relative;
+    border: 0;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+    .homelink{
+        margin-left: 5rem;
+    }
+    .top_section {
+        background-image: url("bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+        .left_logo {
+            margin-left: 7rem;
+            margin-top: 1rem;
+        }
+        .right_logo {
+            float: right;
+            margin-right: 7rem;
+            margin-top: 1rem;
+        }
+    }
+    nav {
+        height: 100px;
+        background-color: rgba(41, 41, 41, .5);
+        margin-left:7rem;
+        border-top: solid $lightcolor 2px;
+        width:83%;
+        .home-margin{
+            margin-left:2rem;
+        }
+        .link-margin{
+            margin-left:6rem;
+        }
+        
+        a {
+            font-family: "lato";
+            font-weight: "regular";
+            color: white;
+            font-size: 23px;
+        }
+        a:hover {
+            color: $redcolor;
+            text-decoration: none;
+        }
+        a:focus {
+            color: $redcolor;
+        }
+        .margin-link {
+            margin-left: 9rem;
+        }
+    }
+    
+    header {
+        position: relative;
+        background-image: url("picture.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        p {
+            margin: 0em;
+        }
+        .box-content {
+            padding-left: 7.5rem;
+            margin-top: -2em;
+        }
+        .main-text {
+            font-size: 100px;
+            font-family: "lato";
+            font-weight: 700;
+            color: $redcolor;
+            padding-top: 6rem;
+            padding-left: 7.5rem;
+        }
+        .sub-text {
+            padding-top: 1rem;
+            font-size: 50px;
+            font-family: "lato";
+            font-weight: "regular";
+            color: $darkcolor;
+        }
+        .content {
+            width: 500px;
+            font-family: "lato";
+            font-weight: 600;
+            color: $darkcolor;
+        }
+        .button {
+            font-size: 20px;
+            font-family: "lato";
+            font-weight: "regular";
+            width: 200px;
+            padding: 12px 28px;
+            background-color: transparent;
+            border: solid white 3px;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        .button:hover{
+            background-color: WHITE;
+            color:$darkcolor;
+        }
+        .button2 {
+            font-size: 20px;
+            font-family: "lato";
+            font-weight: "regular";
+            width: 200px;
+            padding: 12px 28px;
+            background-color: $redcolor;
+            border: none;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        .buttons-box {
+            padding-left: 7.5rem;
+        }
+        .left-arrow-style {
+            position: absolute;
+            top: 45%;
+            left: 1%;
+        }
+       
+    }
+}
+
+/***********responsive part*******/
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    /* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+
+@media only screen and (min-width: 321px) {
+    /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+
+@media only screen and (max-width: 320px) {
+    /* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Styles */
+}
+
+/* iPads (landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    /* Styles */
+}
+
+/* iPads (portrait) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    /* Styles */
+}
+
+/**********
+    iPad 3
+    **********/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    /* Styles */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    /* Styles */
+}
+
+/* Desktops and laptops ----------- */
+
+@media only screen and (min-width: 1224px) {
+    /* Styles */
+}
+
+/* Large screens ----------- */
+
+@media only screen and (min-width: 1824px) {
+    /* Styles */
+}
+
+/* iPhone 4 ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    /* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    /* Styles */
+}
