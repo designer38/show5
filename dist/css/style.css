@@ -7087,3 +7087,15 @@ footer .icon-style2 {
   to {
     width: 0;
     background: transparent; } }
+
+.error-style {
+  text-align: center; }
+  .error-style p {
+    margin: 0; }
+  .error-style .error-text {
+    font-family: "lato";
+    font-weight: "regular";
+    font-size: 50px;
+    color: grey;
+    margin-left: 7rem;
+    text-align: center; }
